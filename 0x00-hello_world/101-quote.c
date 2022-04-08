@@ -3,13 +3,12 @@
  *main - entry point
  *
  *Return: 1 after printing the function
+ *
+ * alx project task8
+ * written by misgana
  */
 int main(void)
 {
-	FILE *fp;
-fp = fopen("file.txt", "w+");
-fputs("and that piece of art is useful\"", fp);
-fputs(" - Dora Korpar, 2015-10-19", fp);
-fclose(fp);
-return (1);
-}
+	write(2,
+		"and that piece of art is useful\" - Dora, 2015-10-19\n", 59);
+	return (1);

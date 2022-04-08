@@ -1,21 +1,15 @@
-/*
- * alx task8
- * written by misgana
- * c progrmming
- */
 #include <stdio.h>
-
 /**
- * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
- *                followed by a new line, to standard error.
+ *main - entry point
  *
- * Return: Always 1.
+ *Return: 1 after printing the function
  */
 int main(void)
 {
-	write(2,
-	      "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
-	      59);
-
-	return (1);
+FILE *fp;
+fp = fopen("file.txt", "w+");
+fputs("and that piece of art is useful\"", fp);
+fputs(" - Dora Korpar, 2015-10-19\n", fp);            
+fclose(fp);
+return (1);
 }

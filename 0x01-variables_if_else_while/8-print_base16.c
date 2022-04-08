@@ -19,3 +19,4 @@ for (base_16 = 37; base_16 <= 102; base_16++)
 putchar ('\n');
 
 return (0);
+}

@@ -3,7 +3,7 @@
 /**
  * add -add two numbers
  *@i: print int i
- *@k: print int j
+ *@j: print int j
  * Return: The result of the addition.
  */
 

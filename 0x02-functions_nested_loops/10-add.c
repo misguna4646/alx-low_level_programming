@@ -1,13 +1,13 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * add -add two numbers
  *@i: print int i
- *@k: print int k
+ *@k: print int j
  * Return: The result of the addition.
  */
 
 int add(int i, int j)
 {
-return (i + k);
+return (i + j);
 }
